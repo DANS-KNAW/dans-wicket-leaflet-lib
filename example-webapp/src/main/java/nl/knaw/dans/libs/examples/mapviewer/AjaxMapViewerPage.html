@@ -1,0 +1,22 @@
+<html
+    xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<head>
+<title>Geo Map Viewer AJAX Example page</title>
+</head>
+<body>
+    <h1>Geo Map Viewer AJAX Example page</h1>
+    <p>
+        You can add and remove markers with AJAX. <br /> In this example
+        you add <span wicket:id="message">[message will be here]</span>
+        random markers at a time. <br /> Note that things become slower
+        an messy as you add more and more...
+    </p>
+    <!-- make it stand out so we can see if it is rendered -->
+    <div wicket:id="geoviewer"
+        style="width: 600px; height: 400px; border: 2px solid grey;"></div>
+    <ul>
+        <li><a href="#" wicket:id="add">Add markers</a></li>
+        <li><a href="#" wicket:id="clear">Clear markers</a></li>
+    </ul>
+</body>
+</html>
