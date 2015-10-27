@@ -34,6 +34,7 @@ public class BasicMapViewerPage extends WebPage {
             public List<Marker> getObject() {
                 List<Marker> loc = new ArrayList<Marker>();
                 loc.addAll(MarkerGenerator.getRandomMarkers(NUM_MARKERS));
+                loc.add(new Marker(0.0, 0.0, "<h2>More HTML content at origin</h2><p><a href='https://en.wikipedia.org/wiki/Lorem_ipsum'>Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"));
                 return loc;
             }
         });
