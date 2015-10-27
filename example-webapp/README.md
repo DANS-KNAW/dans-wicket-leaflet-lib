@@ -10,3 +10,5 @@ To build it run:
 ## Deploy the app
 
     mvn jetty:run
+
+Browse to: [http://localhost:8080/wicket-leaflet-lib-examples](http://localhost:8080/wicket-leaflet-lib-examples)
