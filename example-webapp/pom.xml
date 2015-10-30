@@ -1,12 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>nl.knaw.dans.libs.examples</groupId>
     <artifactId>wicket-leaflet-lib-examples</artifactId>
     <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.x-SNAPSHOT</version>
     <name>Wicket Leaflet Library Examples</name>
-    <description></description>
+    <description />
     <organization>
         <name>DANS</name>
         <url>http://www.dans.knaw.nl</url>
@@ -28,7 +27,7 @@
         <dependency>
             <groupId>nl.knaw.dans.libs</groupId>
             <artifactId>wicket-leaflet-lib</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.x-SNAPSHOT</version>
         </dependency>
 
         <!-- WICKET DEPENDENCIES -->
