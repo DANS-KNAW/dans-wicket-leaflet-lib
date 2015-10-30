@@ -34,6 +34,7 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <developmentVersion>1.x-SNAPSHOT</developmentVersion>
+                    <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
         </plugins>
