@@ -3,7 +3,7 @@
     <groupId>nl.knaw.dans.libs.examples</groupId>
     <artifactId>wicket-leaflet-lib-examples</artifactId>
     <packaging>war</packaging>
-    <version>1.0-beta-1</version>
+    <version>1.x-SNAPSHOT</version>
     <name>Wicket Leaflet Library Examples</name>
     <description />
     <organization>
@@ -27,7 +27,7 @@
         <dependency>
             <groupId>nl.knaw.dans.libs</groupId>
             <artifactId>wicket-leaflet-lib</artifactId>
-            <version>1.0-beta-1</version>
+            <version>1.x-SNAPSHOT</version>
         </dependency>
 
         <!-- WICKET DEPENDENCIES -->
