@@ -4,7 +4,7 @@
     <groupId>nl.knaw.dans.libs</groupId>
     <artifactId>dans-wicket-leaflet-lib-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.x-SNAPSHOT</version>
+    <version>1.0-beta-2</version>
     <name>DANS Wicket Leaflet Library Parent Project</name>
     <organization>
         <name>DANS</name>
@@ -19,7 +19,7 @@
     </licenses>
     <scm>
         <developerConnection>scm:git:https://github.com/DANS-KNAW/${project.artifactId}</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.0-beta-2</tag>
     </scm>
     <build>
         <plugins>
