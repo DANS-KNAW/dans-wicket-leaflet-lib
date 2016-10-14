@@ -163,7 +163,7 @@ public class MapViewerPanel extends Panel {
             else
                 script.append(",");
 
-            script.append("{" + "lon:" + marker.getLon() + "," + "lat:" + marker.getLat() + "," + "info:" + "\"" + marker.getInfo() + "\"" + "}");
+            script.append("{" + "lon:" + marker.getLon() + "," + "lat:" + marker.getLat() + "," + "info:" + "\"" + marker.getInfo().replaceAll("[\\r\\n]", " ") + "\"" + "}");
         }
         script.append("]);");
         return script.toString();
