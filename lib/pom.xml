@@ -3,7 +3,7 @@
     <groupId>nl.knaw.dans.libs</groupId>
     <artifactId>wicket-leaflet-lib</artifactId>
     <packaging>jar</packaging>
-    <version>1.0</version>
+    <version>1.x-SNAPSHOT</version>
     <name>Wicket Leaflet Library</name>
     <organization>
         <name>DANS</name>
